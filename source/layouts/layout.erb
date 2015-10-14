@@ -11,10 +11,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
+    <title><%= current_page.data.title || "TalentView" %></title>
 
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag  "all" %>
+    <%= favicon_tag '../images/favicon.png' %>
     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -45,28 +46,31 @@
 
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <% link_to "/pricing.html" do %>
-                <i class="fa fa-dollar"></i> Pricing
-              <% end %>
+              <%= link_to "Produit", "#feature"%>
             </li>
             <li>
-              <% link_to "/contact.html" do %>
-                <i class="fa fa-envelope-o"></i> Contact
-              <% end %>
+              <%= link_to "Contact", "#contact"%>
             </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Follow-us <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="https://www.facebook.com/lewagonformation"><i class="fa fa-facebook-square"></i> Facebook</a></li>
-                <li><a href="https://twitter.com/lewagonparis"><i class="fa fa-twitter-square"></i> Twitter</a></li>
-              </ul>
-            </li>
-            <li><a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">Order now</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
 
     <%= yield %>
+
+<!-- Footer -->
+
+<div id="footer" class="row text-center">
+  <div class="col-md-6">
+    <%= image_tag 'logo.png' %>
+  </div>
+  <div class="col-md-6">
+    <ul class="list-inline">
+      <li>A</li>
+      <li>B</li>
+    </ul>
+  </div>
+</div>
+
   </body>
 </html>
