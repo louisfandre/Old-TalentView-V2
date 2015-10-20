@@ -10,6 +10,12 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+
+	i{
+		color: white; 
+		font-size: 70px;
+		text-shadow: 0 0 8px rgba(54,53,55,1);
+	}
 }
 
 
@@ -30,7 +36,7 @@
 	-o-background-size: cover;
 	background-size: cover;
 	h2 {
-		color : rgba(243,146,55,1);
+		color : $orange;
 		text-shadow: 0 0 2px rgba(54,53,55,0.7);
 	}
 	.round {
@@ -53,3 +59,6 @@
 	}	
 }
 
+a {
+	text-decoration : none;
+}

@@ -4,19 +4,22 @@ title: TalentView|Tunnel de recrutement
 
 <!-- Wrapper -->
 
-<div class="wrapper padded">
+<div class="wrapper  row padded">
 	<div class="text-center">
 		<h1 class="top">Attirez les candidats</h1>
 	</div>
 	<div class="text-center padded">
-		<i class="fa fa-angle-down"></i>
+		<% link_to '#product' do %>
+			<i class="fa fa-angle-down "></i>
+		<% end %>
+		
 	</div>
 </div>
 
 
 <!-- Produit -->
 
-<div class="row">
+<div id="product" class="row">
 	<div class="col-md-6"></div>
 	<div class="col-md-6"></div>
 </div>
@@ -24,7 +27,7 @@ title: TalentView|Tunnel de recrutement
 
 <!-- client-->
 
-<div id="client">
+<div id="client"class="padded">
 	<div class="container text-center" >
 		<h2>Cas clients</h2>
 		<div class="row padding">
