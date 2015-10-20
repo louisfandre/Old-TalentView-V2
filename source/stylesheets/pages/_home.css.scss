@@ -2,7 +2,12 @@
 	h1{
 		color : white; 
 		font-size: 50px; 
-		text-shadow: 0 0 8px rgba(54,53,55,1);
+		text-shadow: 0 0 6px rgba(54,53,55,1);
+	}
+	h2{
+		color: white;
+		font-size: 38px;
+		text-shadow: 0 0 4px rgba(54,53,55,1);
 	}
 	background-image : url(../images/wrapper.jpg);
 	background-attachment:fixed;
@@ -15,6 +20,19 @@
 		color: white; 
 		font-size: 70px;
 		text-shadow: 0 0 8px rgba(54,53,55,1);
+	}
+}
+
+#product {
+	padding-left: 20px;
+	padding-right: 20px;
+
+	background-color: rgba(21,34,46, 1);
+	h3{
+		color: white; 
+	}
+	p{
+		color: white; 
 	}
 }
 

@@ -11,10 +11,10 @@ $( document ).ready(function() {
         'Recrutez la perle rare'
     ];
 
-    $(window).scroll(function(){
+ $(window).scroll(function(){
         var pos = $(this).scrollTop();
         
-        if(pos < 20 ) {
+        if(pos == 0 ) {
             $('.top').slideUp().text(titles[0]);
         }
         if(pos > 20) {
