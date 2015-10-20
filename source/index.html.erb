@@ -12,3 +12,29 @@ title: TalentView|Tunnel de recrutement
 		<i class="fa fa-angle-down"></i>
 	</div>
 </div>
+
+
+<!-- Produit -->
+
+<div class="row">
+	<div class="col-md-6"></div>
+	<div class="col-md-6"></div>
+</div>
+
+
+<!-- client-->
+
+<div id="client">
+	<div class="container text-center" >
+		<h2>Cas clients</h2>
+		<div class="row padding">
+			<% data.clients.each do |client|%>
+				<div class="col-sm-12 col-md-3">
+					<%= image_tag client.icon, class:""%>
+					<h3><%= client.name%></h3>
+					<p><%= client.description%></p>
+				</div>
+			<%end%>
+		</div>
+	</div>
+</div>

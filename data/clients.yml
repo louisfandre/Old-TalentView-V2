@@ -1,0 +1,12 @@
+- name: Retail
+  icon: retail.png
+  description: Comment recruter pour vos magasins partout en France ? <br> La solution TalentView permet de proposer des candidats qualifiés et proches des différnets magasins grâce à la solution de géolocalisation.
+- name: Industrie
+  icon: industry.png
+  description: Menez une campagne de recrutement massive pour assurer la production. <br> Evaluez les candidats massivement en optimisant la première étape de tri des CVs et en ne recevant que les candidats qualifiés. 
+- name: Franchises
+  icon: franchise.png
+  description: Pilotez les recrutements de vos franchisés et proposer un service supplémentaire. Diffusez des profils de candidats et proposez à votre réseau de franchisé des profils déjà sensibilisés à la culture de l'entreprise.  
+- name: Interim
+  icon: interim.png
+  description: Simplifiez la selection des candidats. Préparez des tunnels spécifiques pour chaque client et filtrez efficacement les candidats les plus adaptés. 
