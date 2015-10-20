@@ -14,7 +14,7 @@ $( document ).ready(function() {
     $(window).scroll(function(){
         var pos = $(this).scrollTop();
         
-        if(pos < 20) {
+        if(pos < 20 ) {
             $('.top').slideUp().text(titles[0]);
         }
         if(pos > 20) {
