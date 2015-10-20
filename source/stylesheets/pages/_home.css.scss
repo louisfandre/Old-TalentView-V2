@@ -1,0 +1,13 @@
+.wrapper{
+	h1{
+		color : white; 
+		font-size: 50px; 
+		text-shadow: 0 0 8px rgba(54,53,55,1);
+	}
+	background-image : url(../images/wrapper.jpg);
+	background-attachment:fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
