@@ -1,12 +1,12 @@
 .wrapper{
 	h1{
 		color : white; 
-		font-size: 50px; 
+		font-size: 40px; 
 		text-shadow: 0 0 6px rgba(54,53,55,1);
 	}
 	h2{
 		color: white;
-		font-size: 38px;
+		font-size: 20px;
 		text-shadow: 0 0 4px rgba(54,53,55,1);
 	}
 	background-image : url(../images/wrapper.jpg);
@@ -20,6 +20,9 @@
 		color: white; 
 		font-size: 70px;
 		text-shadow: 0 0 8px rgba(54,53,55,1);
+	}
+	img{
+		width: 500px; 
 	}
 }
 
