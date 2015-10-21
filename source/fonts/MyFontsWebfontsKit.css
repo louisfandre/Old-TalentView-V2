@@ -1,0 +1,40 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3111483, 2015-10-21T08:22:29-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Panton-Bold by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/panton/bold/
+ * 
+ * Webfont: Panton-Light by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/panton/light/
+ * 
+ * Webfont: Panton-Regular by Fontfabric
+ * URL: http://www.myfonts.com/fonts/font-fabric/panton/regular/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3111483
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright (c) 2012 by Fontfabric LLC. All rights reserved.
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2f7a3b");
+
+  
+@font-face {font-family: 'Panton-Bold';src: url('webfonts/2F7A3B_0_0.eot');src: url('webfonts/2F7A3B_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2F7A3B_0_0.woff2') format('woff2'),url('webfonts/2F7A3B_0_0.woff') format('woff'),url('webfonts/2F7A3B_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Panton-Light';src: url('webfonts/2F7A3B_1_0.eot');src: url('webfonts/2F7A3B_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2F7A3B_1_0.woff2') format('woff2'),url('webfonts/2F7A3B_1_0.woff') format('woff'),url('webfonts/2F7A3B_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Panton-Regular';src: url('webfonts/2F7A3B_2_0.eot');src: url('webfonts/2F7A3B_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2F7A3B_2_0.woff2') format('woff2'),url('webfonts/2F7A3B_2_0.woff') format('woff'),url('webfonts/2F7A3B_2_0.ttf') format('truetype');}
+ 
