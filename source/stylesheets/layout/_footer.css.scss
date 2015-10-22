@@ -8,4 +8,11 @@
 		color : rgb(27,35,45); 
 		font-size : 30px;
 	}
+	a {
+		text-decoration : none;
+		color: $orange;
+	}
+	a:hover {
+		color: rgba(27,35,45,1);
+	}
 }
