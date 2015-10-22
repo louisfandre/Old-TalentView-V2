@@ -70,6 +70,17 @@ $( document ).ready(function() {
         scaleBannerVideoSize('.video-container video');
     });
 
+    $(window).scroll(function() {
+        $('.pop').each(function(){
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow+600) {
+                $(this).addClass("slideUp");
+            }
+        });
+    });
+
  });
 
 //jQuery is required to run this code
@@ -120,3 +131,4 @@ function scaleBannerVideoSize(element){
 
     });
 }
+

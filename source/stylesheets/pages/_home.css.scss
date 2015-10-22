@@ -4,12 +4,10 @@
 	}
 	h1{
 		color : white; 
-		font-size: 40px; 
 		text-shadow: 0 0 6px rgba(54,53,55,1);
 	}
-	h2{
+	h3{
 		color: white;
-		font-size: 20px;
 		text-shadow: 0 0 4px rgba(54,53,55,1);
 	}
 	background-image : url(../images/wrapper.jpg);
@@ -32,14 +30,33 @@
 #product {
 	padding-left: 20px;
 	padding-right: 20px;
+	background-color: rgba(21,34,46, 0.9);
 
-	background-color: rgba(21,34,46, 1);
-	h3{
+	
+	h2{
+		color: $orange;
+	}
+	h3, h4{
 		color: white; 
 	}
 	p{
 		color: white; 
 	}
+	li {
+		color: white;
+	}
+	img {
+		width: 400px;
+	}
+	i{
+		color: white; 
+		font-size: 70px;
+	}
+}
+
+
+.pop {
+	visibility: hidden;
 }
 
 

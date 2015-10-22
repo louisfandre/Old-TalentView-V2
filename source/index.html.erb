@@ -9,7 +9,7 @@ title: TalentView|Tunnel de recrutement
 	<div class="text-center">
 		<%= image_tag 'logo.png', class:'small_padding'%>
 		<h1>Optimisez vos recrutements en quelques clics</h1>
-		<h2>Créez un tunnel de qualification des candidats et révélez les meilleurs talents.</h2>
+		<h3>Créez un tunnel de qualification des candidats et révélez les meilleurs talents.</h3>
 	</div>
 	<div class="text-center medium_padding">
 		<% link_to '#product' do %>
@@ -22,19 +22,56 @@ title: TalentView|Tunnel de recrutement
 
 <!-- Produit -->
 
-<div id="product" class="row padded">
-	<div class="col-md-6 text-center">
-		<img src="http://placehold.it/350x350">
+<div id="product">
+	<div class="text-center small_padding">
+		<h2>Créez un tunnel de conversion</h2>
+		<h4>et transformez les candidats en collaborateurs</h4>
 	</div>
-	<div class="col-md-6">
-		<h3 class="text-center">Creez un tunnel de conversion</h3>
-		<p>Inter has ruinarum varietates a Nisibi quam tuebatur accitus Vrsicinus, cui nos obsecuturos iunxerat imperiale praeceptum, dispicere litis exitialis certamina cogebatur abnuens et reclamans, adulatorum oblatrantibus turmis, bellicosus sane milesque semper et militum ductor sed forensibus iurgiis longe discretus, qui metu sui discriminis anxius cum accusatores quaesitoresque subditivos sibi consociatos ex isdem foveis cerneret emergentes, quae clam palamve agitabantur, occultis Constantium litteris edocebat inplorans subsidia, quorum metu tumor notissimus Caesaris exhalaret.</p>
+
+	<div class="row pop">
+		<div class="col-md-6 text-center">
+			<%= image_tag 'iphone.png', class:'' %>
+		</div>
+		<div class="col-md-6">
+			<h3 class="text-center marger-top">Etape 1 : présentation simplifiée de l'annonce.</h3>
+		</div>
+	</div>
+
+	<div class="text-center pop">
+		<i class="fa fa-angle-down "></i>
+	</div>
+
+	<div class="row pop">
+		<div class="col-md-6">
+			<h3 class="text-center marger-top">Etape 2 : Vidéo interactive sur votre société pour évaluer le candidat</h3>
+		</div>
+		<div class="col-md-6 text-center">
+			<%= image_tag 'hotspot.png', class:'' %>
+		</div>
+		
+	</div>
+
+	<div class="text-center pop">
+		<i class="fa fa-angle-down "></i>
+	</div>
+
+	<div class="row pop">
+		<div class="col-md-6 text-center">
+			<%= image_tag 'pitch.png', class:'' %>
+		</div>
+		<div class="col-md-6">
+			<h3 class="text-center marger-top">jhoihjoho</h3>
+		</div>
+		
+		
 	</div>
 </div>
 
 <!-- detail -->
 
 
+
+<!--
 <div class="homepage-hero-module">
     <div class="video-container">
 
@@ -49,7 +86,7 @@ title: TalentView|Tunnel de recrutement
         </div>
     </div>
 </div>
-
+-->
 
 <!-- client-->
 
@@ -58,7 +95,7 @@ title: TalentView|Tunnel de recrutement
 		<h2>Cas clients</h2>
 		<div class="row padding">
 			<% data.clients.each do |client|%>
-				<div class="col-sm-12 col-md-3">
+				<div class="col-sm-12 col-md-3 pop">
 					<%= image_tag client.icon, class:""%>
 					<h3><%= client.name%></h3>
 					<p><%= client.description%></p>
@@ -124,3 +161,5 @@ title: TalentView|Tunnel de recrutement
 		</div>
 	</div>
 </div>
+
+
