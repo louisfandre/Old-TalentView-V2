@@ -70,6 +70,7 @@ title: TalentView|Tunnel de recrutement
 		
 		
 	</div>
+
 </div>
 
 <!-- candidat -->
@@ -79,6 +80,50 @@ title: TalentView|Tunnel de recrutement
 		<div class="col-md-12 text-center">
 			<h2>Révélez le candidat idéal !</h2>
 		</div>
+
+		<div class="row">
+			<div class="col-md-12 text-center bottom_padding">
+				<button id="go_button" type="button" class="btn btn-default cta slideUp" data-toggle="modal" data-target="#myModal">Demandez une démonstration</button>
+
+
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h4 class="modal-title" id="myModalLabel">TalentView</h4>
+				      </div>
+				      <div class="modal-body">
+				        <div id="wufoo-q1hhvb0v11y2kyx">
+				        Fill out my <a href="https://talentview.wufoo.com/forms/q1hhvb0v11y2kyx">online form</a>.
+				        </div>
+				        <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">HTML Forms powered by <a href="http://www.wufoo.com">Wufoo</a>.</div>
+				        <script type="text/javascript">var q1hhvb0v11y2kyx;(function(d, t) {
+				        var s = d.createElement(t), options = {
+				        'userName':'talentview',
+				        'formHash':'q1hhvb0v11y2kyx',
+				        'autoResize':true,
+				        'height':'697',
+				        'async':true,
+				        'host':'wufoo.com',
+				        'header':'show',
+				        'ssl':true};
+				        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+				        s.onload = s.onreadystatechange = function() {
+				        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+				        try { q1hhvb0v11y2kyx = new WufooForm();q1hhvb0v11y2kyx.initialize(options);q1hhvb0v11y2kyx.display(); } catch (e) {}};
+				        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+				        })(document, 'script');</script>
+
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
 	</div>
 </div>
 
@@ -109,6 +154,9 @@ title: TalentView|Tunnel de recrutement
 					<p><%= client.description%></p>
 				</div>
 			<%end%>
+		</div>
+		<div class="row small_padding">
+			<button id="go_button" type="button" class="btn btn-default cta slideUp" data-toggle="modal" data-target="#myModal">TalentView pour votre société ? </button>
 		</div>
 	</div>
 </div>
