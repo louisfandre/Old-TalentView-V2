@@ -59,7 +59,7 @@
 	visibility: hidden;
 }
 
-#detail {
+#candidat {
 	background-image : url(../images/crowd.jpg);
 	background-attachment:fixed;
 	-webkit-background-size: cover;
@@ -70,8 +70,20 @@
 		color: $orange; 
 		text-shadow: 0 0 6px rgba(54,53,55,1);
 	}
-	
 
+}
+
+#presentation{
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgba(21,34,46, 0.9);
+
+	h2{
+		color: $orange;
+	}
+	h3, h4{
+		color: white; 
+	}
 }
 
 
