@@ -4,11 +4,10 @@
 	}
 	h1{
 		color : white; 
-		text-shadow: 0 0 6px rgba(54,53,55,1);
+		text-shadow: 0 0 6px rgba(21,34,46, 0.9);
 	}
 	h3{
-		color: white;
-		text-shadow: 0 0 4px rgba(54,53,55,1);
+		color: $orange;
 	}
 	background-image : url(../images/wrapper.jpg);
 	background-attachment:fixed;
@@ -40,18 +39,19 @@
 		color: white; 
 	}
 	p{
-		color: white; 
+		color: $orange; 
 	}
 	li {
 		color: white;
 	}
 	img {
-		width: 400px;
+		height: 300px;
 	}
 	i{
 		color: white; 
-		font-size: 70px;
+		font-size: 40px;
 	}
+
 }
 
 
@@ -78,26 +78,30 @@
 	background-size: cover;
 	h2 {
 		color : $orange;
-		text-shadow: 0 0 2px rgba(54,53,55,0.7);
+		text-shadow: 0 0 2px rgba(27,35,45,0.7);
 	}
 	.round {
 		border-radius : 64px;
 		border-style: solid;
 	    border-width: 1px;
-	    border-color: rgba(54,53,55,1);
-	    box-shadow: 8px 8px 12px rgba(54,53,55,0.7);
+	    border-color: rgba(27,35,45,1);
+	    box-shadow: 4px 4px 4px rgba(27,35,45,0.7);
 	}
 	.round:hover {
-		border-color: rgba(243,146,55,1);
-		border-width:1px;
+		border-color: $orange;
+		border-width:2px;
 	}
 
 	.figure {
 		color: white; 
-		text-shadow: 0 0 8px rgba(54,53,55,1);
+		text-shadow: 0 0 2px rgba(27,35,45,0.7);
 		padding-bottom : 6em;
 
 	}	
+	h3{
+		color: white; 
+		text-shadow: 0 0 2px rgba(27,35,45,0.7);
+	}
 }
 
 a {
