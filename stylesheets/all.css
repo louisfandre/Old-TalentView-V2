@@ -9306,7 +9306,26 @@ button.close {
   border-bottom: 0 solid grey;
   min-height: 0;
   transition: background 0.4s ease; }
-  /* line 49, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
+  /* line 39, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
+  .navbar-wagon :after {
+    content: "beta";
+    position: fixed;
+    width: 120px;
+    height: 25px;
+    background: RGBA(236, 107, 76, 1);
+    top: 15px;
+    left: -30px;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    line-height: 27px;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+  /* line 68, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a,
   .navbar-wagon .navbar-nav > .open > a,
   .navbar-wagon .navbar-nav > li > a:focus,
@@ -9321,19 +9340,19 @@ button.close {
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-  /* line 65, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
+  /* line 84, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a:hover,
   .navbar-wagon .navbar-nav > .open > a:hover {
     color: #EC6B4C;
     background-color: transparent; }
-  /* line 71, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
+  /* line 90, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand,
   .navbar-wagon .navbar-brand:hover {
     outline: none;
     color: #15222E;
     padding-top: 5px;
     padding-bottom: 5px; }
-  /* line 79, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
+  /* line 98, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a.btn {
     line-height: 40px;
     padding: 0 10px;
@@ -9343,30 +9362,30 @@ button.close {
     font-weight: bold;
     background-color: lightgrey;
     font-size: 12px; }
-    /* line 88, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
+    /* line 107, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon .navbar-nav > li > a.btn:hover {
       background-color: #868686; }
-  /* line 93, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
+  /* line 112, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
     height: 40px;
     padding: 0px; }
-  /* line 98, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
+  /* line 117, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .img-avatar {
     border: 2px solid white;
     box-shadow: 0 0 2px #c8c8c8;
     height: 46px;
     margin-right: 10px;
     border-radius: 50%; }
-  /* line 106, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
+  /* line 125, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-toggle {
     border-color: #dddddd;
     width: 45px;
     background: transparent; }
-  /* line 112, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
+  /* line 131, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu {
     border-radius: 0;
     margin-top: 10px; }
-  /* line 117, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
+  /* line 136, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu:before {
     position: absolute;
     background: white;
@@ -9386,10 +9405,10 @@ button.close {
  * Navbar profile picture
  * ------------------------------------- */
 @media screen and (max-width: 768px) {
-  /* line 140, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
+  /* line 159, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
     height: 40px; }
-  /* line 143, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
+  /* line 162, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand, .navbar-wagon .navbar-brand:hover {
     display: block;
     color: #15222E;
@@ -9488,7 +9507,7 @@ button.close {
   background-color: #EC6B4C;
   box-shadow: 8px 8px 12px rgba(27, 35, 45, 0.7); }
 
-/* line 1, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+/* line 2, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 .wrapper {
   background-image: url(../images/wrapper.jpg);
   background-attachment: fixed;
@@ -9496,73 +9515,73 @@ button.close {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  /* line 2, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 3, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   .wrapper body {
     font-family: Pantone-Regular; }
-  /* line 5, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 6, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   .wrapper h1 {
     color: white;
     text-shadow: 0 0 6px rgba(21, 34, 46, 0.9); }
-  /* line 9, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 10, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   .wrapper h3 {
     color: #EC6B4C;
     text-shadow: 0 0 3px rgba(21, 34, 46, 0.9); }
-  /* line 21, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 22, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   .wrapper i {
     color: white;
     font-size: 70px;
     text-shadow: 0 0 8px #15222e; }
-  /* line 26, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 27, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   .wrapper img {
     width: 500px; }
 
-/* line 31, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+/* line 32, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 .titlezone {
   margin-left: 50px;
   margin-right: 50px; }
 
-/* line 38, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+/* line 39, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 #kicker h2 {
   color: #15222e;
   font-size: 25px; }
-/* line 42, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+/* line 43, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 #kicker i {
   color: #EC6B4C;
   font-size: 40px; }
-/* line 47, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+/* line 48, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 #kicker p {
   color: white; }
 
-/* line 54, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+/* line 55, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 #product {
   padding-left: 20px;
   padding-right: 20px;
   background-color: rgba(21, 34, 46, 0.9); }
-  /* line 60, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 61, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #product h2 {
     color: #EC6B4C; }
-  /* line 63, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 64, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #product h3, #product h4 {
     color: white; }
-  /* line 66, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 67, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #product p {
     color: #EC6B4C; }
-  /* line 69, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 70, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #product li {
     color: white; }
-  /* line 72, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 73, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #product img {
     height: 300px; }
-  /* line 75, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 76, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #product i {
     color: white;
     font-size: 40px; }
 
-/* line 83, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+/* line 84, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 .pop {
   visibility: hidden; }
 
-/* line 87, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+/* line 88, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 #candidat {
   background-image: url(../images/crowd.jpg);
   background-attachment: fixed;
@@ -9570,32 +9589,32 @@ button.close {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  /* line 94, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 95, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #candidat h2 {
     color: #EC6B4C;
     text-shadow: 0 0 6px #363537; }
 
-/* line 101, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+/* line 102, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 #presentation {
   padding-left: 20px;
   padding-right: 20px;
   background-color: rgba(21, 34, 46, 0.9); }
-  /* line 106, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 107, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #presentation h2 {
     color: #EC6B4C; }
-  /* line 109, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 110, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #presentation h3, #presentation h4 {
     color: white; }
 
-/* line 115, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+/* line 116, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 #client {
   width: 100%; }
-  /* line 117, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 118, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #client img {
     height: 70px;
     margin: 0 auto; }
 
-/* line 124, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+/* line 125, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 #comclever {
   background-image: url(../images/interview.jpg);
   background-attachment: fixed;
@@ -9603,32 +9622,32 @@ button.close {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  /* line 131, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 132, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #comclever h2 {
     color: #EC6B4C;
     text-shadow: 0 0 2px rgba(27, 35, 45, 0.7); }
-  /* line 135, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 136, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #comclever .round {
     border-radius: 64px;
     border-style: solid;
     border-width: 1px;
     border-color: #1b232d;
     box-shadow: 4px 4px 4px rgba(27, 35, 45, 0.7); }
-  /* line 142, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 143, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #comclever .round:hover {
     border-color: #EC6B4C;
     border-width: 2px; }
-  /* line 147, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 148, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #comclever .figure {
     color: white;
     text-shadow: 0 0 2px rgba(27, 35, 45, 0.7);
     padding-bottom: 6em; }
-  /* line 153, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 154, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #comclever h3 {
     color: white;
     text-shadow: 0 0 2px rgba(27, 35, 45, 0.7); }
 
-/* line 159, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+/* line 160, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 a {
   text-decoration: none; }
 
