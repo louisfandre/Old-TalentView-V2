@@ -35,6 +35,25 @@ $navbar-profile-border-width: 2px;
  * SCSS code
  * ------------------------------------- */
 .navbar-wagon {
+  :after{
+    content: "beta";
+    position: fixed;
+    width: 120px;
+    height: 25px;
+    background: RGBA(236, 107, 76, 1);
+    top: 15px;
+    left: -30px;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    line-height: 27px;
+    -ms-transform:rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+  }
   background: $navbar-bg;
   font-family: $navbar-font-family;
   border: none;
