@@ -9,7 +9,10 @@ title: TalentView|Tunnel de recrutement
 	<div class="text-center row titlezone">
 		<%= image_tag 'logo.png', class:'small_padding'%>
 		<h1>Optimisez vos recrutements en quelques clics</h1>
-		<h3>Créez un tunnel de qualification des candidats et révélez les meilleurs talents.</h3>
+		<h3>Créez un tunnel de candidature.<br>
+			<span class="element"></span> les meilleurs talents.
+		</h3>
+		
 	</div>
 	<div class="text-center medium_padding">
 		<% link_to '#product' do %>
@@ -248,4 +251,16 @@ title: TalentView|Tunnel de recrutement
 	</div>
 </div>
 
+
+<script src="javascripts/typed.js"></script>
+<script>
+    $(function(){
+        $(".element").typed({
+            strings: ["Qualifiez", "Triez", "Révelez","Recrutez"],
+            typeSpeed: 100,
+            loop: true,
+             startDelay: 1000,
+        });
+    });
+</script>
 

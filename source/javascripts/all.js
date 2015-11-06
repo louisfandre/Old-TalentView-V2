@@ -4,45 +4,6 @@
 
 $( document ).ready(function() {
 
-    var titles = [
-        'Attirez des candidats',
-        'Présentez votre entreprise',
-        'Visualisez les meilleurs profils',
-        'Recrutez la perle rare'
-    ];
-
- $(window).scroll(function(){
-        var pos = $(this).scrollTop();
-        
-        if(pos == 0 ) {
-            $('.top').slideUp().text(titles[0]);
-        }
-        if(pos > 20) {
-            $('.top').slideDown();
-        }
-        if(pos > 60) {
-            $('.top').text(titles[1]);
-        }
-        if(pos > 100) {
-            $('.top').text(titles[2]);
-        }
-        if(pos > 140) {
-            $('.top').text(titles[3]);
-        }
-    });
-
-    $(window).on('scroll', function(){
-        if ($(this).scrollTop()>400){
-           $(".navbar").css("background-color","rgba(255,255,255,0.7"); 
-            $(".logoscroll").attr({src: "/images/logo.png",});
-        } else {
-           $(".navbar").css("background-color","transparent");
-           $(".logoscroll").attr({src: "/images/sigle.png",}); 
-        }
-
-        
-    });
-
 
     $('a[href*=#]:not([href=#])').click(function() {
        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -105,6 +66,8 @@ function initBannerVideoSize(element){
 
 }
 
+
+
 function scaleBannerVideoSize(element){
 
     var windowWidth = $(window).width(),
@@ -130,5 +93,10 @@ function scaleBannerVideoSize(element){
         $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
 
     });
+
+
+
 }
+
+
 
