@@ -9497,6 +9497,34 @@ button.close {
 .h4 {
   font-size: 23px; }
 
+/* line 77, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/layout/_utilities.css.scss */
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 /* line 1, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/components/_button.css.scss */
 .cta {
   margin-top: 40px;
