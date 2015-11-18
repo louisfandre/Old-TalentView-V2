@@ -9567,53 +9567,57 @@ button.close {
   /* line 36, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   .wrapper img {
     width: 100%; } }
-/* line 44, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+/* line 46, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 .titlezone {
   margin-left: 50px;
   margin-right: 50px; }
 
-/* line 51, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+/* line 53, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 #kicker h2 {
   color: #15222e;
   font-size: 25px; }
-/* line 55, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+/* line 57, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 #kicker i {
   color: #EC6B4C;
   font-size: 40px; }
-/* line 60, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+/* line 62, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 #kicker p {
   color: white; }
 
-/* line 67, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+/* line 69, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 #product {
   padding-left: 20px;
   padding-right: 20px;
   background-color: rgba(21, 34, 46, 0.9); }
-  /* line 73, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 75, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #product h2 {
     color: #EC6B4C; }
-  /* line 76, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 78, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #product h3, #product h4 {
     color: white; }
-  /* line 79, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 81, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #product p {
     color: #EC6B4C; }
-  /* line 82, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 84, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #product li {
     color: white; }
-  /* line 85, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 87, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #product img {
-    height: 300px; }
-  /* line 88, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+    width: 600px; }
+  /* line 90, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #product i {
     color: white;
     font-size: 40px; }
 
-/* line 96, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+@media screen and (max-width: 768px) {
+  /* line 100, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  #product img {
+    width: 100%; } }
+/* line 109, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 .pop {
   visibility: hidden; }
 
-/* line 100, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+/* line 113, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 #candidat {
   background-image: url(../images/crowd.jpg);
   background-attachment: fixed;
@@ -9621,32 +9625,32 @@ button.close {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  /* line 107, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 120, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #candidat h2 {
     color: #EC6B4C;
     text-shadow: 0 0 6px #363537; }
 
-/* line 114, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+/* line 127, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 #presentation {
   padding-left: 20px;
   padding-right: 20px;
   background-color: rgba(21, 34, 46, 0.9); }
-  /* line 119, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 132, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #presentation h2 {
     color: #EC6B4C; }
-  /* line 122, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 135, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #presentation h3, #presentation h4 {
     color: white; }
 
-/* line 128, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+/* line 141, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 #client {
   width: 100%; }
-  /* line 130, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 143, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #client img {
     height: 70px;
     margin: 0 auto; }
 
-/* line 137, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+/* line 150, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 #comclever {
   background-image: url(../images/interview.jpg);
   background-attachment: fixed;
@@ -9654,32 +9658,32 @@ button.close {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  /* line 144, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 157, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #comclever h2 {
     color: #EC6B4C;
     text-shadow: 0 0 2px rgba(27, 35, 45, 0.7); }
-  /* line 148, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 161, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #comclever .round {
     border-radius: 64px;
     border-style: solid;
     border-width: 1px;
     border-color: #1b232d;
     box-shadow: 4px 4px 4px rgba(27, 35, 45, 0.7); }
-  /* line 155, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 168, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #comclever .round:hover {
     border-color: #EC6B4C;
     border-width: 2px; }
-  /* line 160, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 173, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #comclever .figure {
     color: white;
     text-shadow: 0 0 2px rgba(27, 35, 45, 0.7);
     padding-bottom: 6em; }
-  /* line 166, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+  /* line 179, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
   #comclever h3 {
     color: white;
     text-shadow: 0 0 2px rgba(27, 35, 45, 0.7); }
 
-/* line 172, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
+/* line 185, /Users/Louis/Documents/TalentView/300 - Site/TalentView-V2/source/stylesheets/pages/_home.css.scss */
 a {
   text-decoration: none; }
 
