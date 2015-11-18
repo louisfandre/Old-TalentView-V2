@@ -25,9 +25,21 @@
 		text-shadow: 0 0 8px rgba(21,34,46, 1);
 	}
 	img{
-		width: 500px; 
+		width: 668px; 
 	}
+
 }
+
+@media screen and (max-width: 768px) {
+	  
+	  .wrapper{
+	  	img {
+	  		width:100%;
+	  		}
+	  }
+		
+}
+
 
 .titlezone {
 	margin-left : 50px; 
